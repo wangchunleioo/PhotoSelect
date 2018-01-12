@@ -41,11 +41,11 @@ Phoenix.with()<br>
                         //mAdapter.notifyDataSetChanged();<br>
                     }<br>
 
-                    @Override<br>
-                    public void onPickFailed(String errorMessage) {<br>
+                    @Override
+                    public void onPickFailed(String errorMessage) {
 
-                    }<br>
-                }).start(MainActivity.this, PhoenixOption.TYPE_PICK_MEDIA);<br>
+                    }
+                }).start(MainActivity.this, PhoenixOption.TYPE_PICK_MEDIA);
                 
    可以自由选择开启或关闭 功能强大精致 <br>
    我这里预览后对图片做处理（拉伸、裁剪、马赛克等）后不会保存修改的照片 还未找到原因... 主要是为了试试github<br>
